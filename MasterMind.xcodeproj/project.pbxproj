@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FCA5E6F1C901C050049A728 /* Combinacio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA5E671C901C050049A728 /* Combinacio.cpp */; };
+		5FCA5E701C901C050049A728 /* MasterMind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA5E6A1C901C050049A728 /* MasterMind.cpp */; };
+		5FCA5E711C901C050049A728 /* principal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA5E6C1C901C050049A728 /* principal.cpp */; };
+		5FCA5E721C901C050049A728 /* Resultat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA5E6D1C901C050049A728 /* Resultat.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5F3B6DD71C86041500555E2D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5F3B6DD91C86041500555E2D /* MasterMind */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MasterMind; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FCA5E671C901C050049A728 /* Combinacio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Combinacio.cpp; path = ../../../../../../../../../Downloads/MasterMind/Combinacio.cpp; sourceTree = "<group>"; };
+		5FCA5E681C901C050049A728 /* Combinacio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Combinacio.h; path = ../../../../../../../../../Downloads/MasterMind/Combinacio.h; sourceTree = "<group>"; };
+		5FCA5E691C901C050049A728 /* definicionsComunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = definicionsComunes.h; path = ../../../../../../../../../Downloads/MasterMind/definicionsComunes.h; sourceTree = "<group>"; };
+		5FCA5E6A1C901C050049A728 /* MasterMind.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MasterMind.cpp; path = ../../../../../../../../../Downloads/MasterMind/MasterMind.cpp; sourceTree = "<group>"; };
+		5FCA5E6B1C901C050049A728 /* MasterMind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterMind.h; path = ../../../../../../../../../Downloads/MasterMind/MasterMind.h; sourceTree = "<group>"; };
+		5FCA5E6C1C901C050049A728 /* principal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = principal.cpp; path = ../../../../../../../../../Downloads/MasterMind/principal.cpp; sourceTree = "<group>"; };
+		5FCA5E6D1C901C050049A728 /* Resultat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Resultat.cpp; path = ../../../../../../../../../Downloads/MasterMind/Resultat.cpp; sourceTree = "<group>"; };
+		5FCA5E6E1C901C050049A728 /* Resultat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Resultat.h; path = ../../../../../../../../../Downloads/MasterMind/Resultat.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F3B6DD61C86041500555E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F3B6DD01C86041500555E2D = {
+			isa = PBXGroup;
+			children = (
+				5F3B6DDB1C86041500555E2D /* MasterMind */,
+				5F3B6DDA1C86041500555E2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F3B6DDA1C86041500555E2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F3B6DD91C86041500555E2D /* MasterMind */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F3B6DDB1C86041500555E2D /* MasterMind */ = {
+			isa = PBXGroup;
+			children = (
+				5FCA5E731C901CF00049A728 /* Classes.cpp */,
+				5FCA5E741C901D020049A728 /* Classes.h */,
+				5FCA5E691C901C050049A728 /* definicionsComunes.h */,
+				5FCA5E6C1C901C050049A728 /* principal.cpp */,
+			);
+			path = MasterMind;
+			sourceTree = "<group>";
+		};
+		5FCA5E731C901CF00049A728 /* Classes.cpp */ = {
+			isa = PBXGroup;
+			children = (
+				5FCA5E671C901C050049A728 /* Combinacio.cpp */,
+				5FCA5E6A1C901C050049A728 /* MasterMind.cpp */,
+				5FCA5E6D1C901C050049A728 /* Resultat.cpp */,
+			);
+			name = Classes.cpp;
+			sourceTree = "<group>";
+		};
+		5FCA5E741C901D020049A728 /* Classes.h */ = {
+			isa = PBXGroup;
+			children = (
+				5FCA5E681C901C050049A728 /* Combinacio.h */,
+				5FCA5E6B1C901C050049A728 /* MasterMind.h */,
+				5FCA5E6E1C901C050049A728 /* Resultat.h */,
+			);
+			name = Classes.h;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F3B6DD81C86041500555E2D /* MasterMind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F3B6DE01C86041500555E2D /* Build configuration list for PBXNativeTarget "MasterMind" */;
+			buildPhases = (
+				5F3B6DD51C86041500555E2D /* Sources */,
+				5F3B6DD61C86041500555E2D /* Frameworks */,
+				5F3B6DD71C86041500555E2D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasterMind;
+			productName = MasterMind;
+			productReference = 5F3B6DD91C86041500555E2D /* MasterMind */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F3B6DD11C86041500555E2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Pau Casacuberta Orta";
+				TargetAttributes = {
+					5F3B6DD81C86041500555E2D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5F3B6DD41C86041500555E2D /* Build configuration list for PBXProject "MasterMind" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F3B6DD01C86041500555E2D;
+			productRefGroup = 5F3B6DDA1C86041500555E2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F3B6DD81C86041500555E2D /* MasterMind */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F3B6DD51C86041500555E2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FCA5E711C901C050049A728 /* principal.cpp in Sources */,
+				5FCA5E721C901C050049A728 /* Resultat.cpp in Sources */,
+				5FCA5E6F1C901C050049A728 /* Combinacio.cpp in Sources */,
+				5FCA5E701C901C050049A728 /* MasterMind.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5F3B6DDE1C86041500555E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5F3B6DDF1C86041500555E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5F3B6DE11C86041500555E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F3B6DE21C86041500555E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F3B6DD41C86041500555E2D /* Build configuration list for PBXProject "MasterMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3B6DDE1C86041500555E2D /* Debug */,
+				5F3B6DDF1C86041500555E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F3B6DE01C86041500555E2D /* Build configuration list for PBXNativeTarget "MasterMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3B6DE11C86041500555E2D /* Debug */,
+				5F3B6DE21C86041500555E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F3B6DD11C86041500555E2D /* Project object */;
+}
